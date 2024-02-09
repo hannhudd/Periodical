@@ -11,12 +11,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/LightingExperiment.unity
     guid: c6219596779f4644ba424d05cec580db
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/New Scene.unity
     guid: 24439c297d1a5644f894a4ffeab91575
   - enabled: 0
     path: Assets/Samples/Meta XR Interaction SDK OVR Samples/60.0.0/Example Scenes/TransformerExamples.unity
     guid: 7475942f60c376744ba1ec487d140105
+  - enabled: 1
+    path: Assets/Scenes/Passthrough.unity
+    guid: 1cba34e4a4799384db33ffbe204867cc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b0c6617ef1620e54fa0b23aad43df93f,
       type: 2}
