@@ -139,9 +139,10 @@ GameObject:
   - component: {fileID: 5735792227678886926}
   - component: {fileID: 276481701672600139}
   - component: {fileID: 975398262545771870}
+  - component: {fileID: 3177141557842894687}
   m_Layer: 0
   m_Name: Pad
-  m_TagString: Untagged
+  m_TagString: Pad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -156,7 +157,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.468, y: 0.874, z: 0.645}
-  m_LocalScale: {x: 1.18, y: 1, z: 0.91}
+  m_LocalScale: {x: 1.18, y: 1.0139, z: 0.91}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 748317681018764024}
@@ -180,7 +181,7 @@ MonoBehaviour:
   _transferOnSecondSelection: 1
   _addNewPointsToFront: 0
   _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
+  _oneGrabTransformer: {fileID: 3177141557842894687}
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 0}
   _maxGrabPoints: -1
@@ -254,6 +255,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3177141557842894687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2248940526564029818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62188b2f8507b74395669ef2f5b5c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5901177354021626675
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,9 +415,9 @@ Transform:
   m_GameObject: {fileID: 8674009480059442679}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.05, z: 0}
-  m_LocalScale: {x: 0.028485999, y: 0.03595398, z: 0.016937722}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.023198428, y: 0.035402693, z: 0.013793741}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5770776412320479401}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

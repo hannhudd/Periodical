@@ -45,10 +45,10 @@ namespace Oculus.Interaction
             var targetTransform = _grabbable.Transform;
             _grabDeltaInLocalSpace = new Pose(targetTransform.InverseTransformVector(grabPoint.position - targetTransform.position),
                                             Quaternion.Inverse(grabPoint.rotation) * targetTransform.rotation);
-            Debug.Log("OBJECT TAG IS: " + _grabbable.Transform.gameObject.tag);
+            
+            //change the game state based on the tag of the item grabbed
             if (_grabbable.Transform.gameObject.tag != "Untagged")
             {
-                Debug.Log("Picked up cup");
                 GameState newState = (GameState)System.Enum.Parse(typeof(GameState), _grabbable.Transform.gameObject.tag);
                 GameManager.Instance.UpdateGameState(newState);
             }

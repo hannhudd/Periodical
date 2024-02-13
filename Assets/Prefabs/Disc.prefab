@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 517428191318043230}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.1074, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -270,8 +270,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.85931355, y: 0.4753926, z: 0.85662353}
-  m_Center: {x: -0.0000141379, y: -0.11111826, z: 0}
+  m_Size: {x: 0.8593136, y: 0.49039727, z: 0.8566236}
+  m_Center: {x: -0.000014733187, y: -0.118620604, z: 0}
 --- !u!114 &1656435698825029798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,9 +301,10 @@ GameObject:
   - component: {fileID: 124883847202320971}
   - component: {fileID: 5578932720101857680}
   - component: {fileID: 4897512246506399919}
+  - component: {fileID: 8545252001167839243}
   m_Layer: 0
   m_Name: Disc
-  m_TagString: Untagged
+  m_TagString: Disc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -342,7 +343,7 @@ MonoBehaviour:
   _transferOnSecondSelection: 1
   _addNewPointsToFront: 0
   _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
+  _oneGrabTransformer: {fileID: 8545252001167839243}
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 0}
   _maxGrabPoints: -1
@@ -416,6 +417,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &8545252001167839243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3481006532128026499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62188b2f8507b74395669ef2f5b5c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5208714663785212019
 GameObject:
   m_ObjectHideFlags: 0

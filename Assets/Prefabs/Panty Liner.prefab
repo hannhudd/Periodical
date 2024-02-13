@@ -194,9 +194,10 @@ GameObject:
   - component: {fileID: 5983234113330382120}
   - component: {fileID: 8091722772094265738}
   - component: {fileID: 6754812572770440037}
+  - component: {fileID: 4158191626439728543}
   m_Layer: 0
   m_Name: Panty Liner
-  m_TagString: Untagged
+  m_TagString: Liner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -211,7 +212,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.018, y: 0.874, z: 0.645}
-  m_LocalScale: {x: 1.18, y: 0.88463, z: 0.91}
+  m_LocalScale: {x: 1.1363287, y: 0.85189027, z: 0.8763213}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3464945947729006759}
@@ -235,7 +236,7 @@ MonoBehaviour:
   _transferOnSecondSelection: 1
   _addNewPointsToFront: 0
   _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
+  _oneGrabTransformer: {fileID: 4158191626439728543}
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 0}
   _maxGrabPoints: -1
@@ -309,6 +310,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4158191626439728543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3221011606826818435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62188b2f8507b74395669ef2f5b5c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4081307346826632079
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,8 +354,8 @@ Transform:
   m_GameObject: {fileID: 4081307346826632079}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.036466006, y: 0.030315077, z: 0.003}
+  m_LocalPosition: {x: 0, y: 0.029, z: 0}
+  m_LocalScale: {x: 0.030986626, y: 0.025759934, z: 0.00254922}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3346078221386760368}
@@ -596,7 +609,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: -5495902117074765545, guid: 0e57cfd54b2c7fb4ab2068ee1b123fcc, type: 3}
+  m_Mesh: {fileID: -5495902117074765545, guid: 4c171f3ac81fb2d419a5208d56da2a03, type: 3}
 --- !u!1 &9106200944826332004
 GameObject:
   m_ObjectHideFlags: 0
