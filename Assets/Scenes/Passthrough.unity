@@ -2046,6 +2046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaqueText: {fileID: 894614590}
+  ContentCanvas: {fileID: 7524732261164299828}
 --- !u!1 &390640008
 GameObject:
   m_ObjectHideFlags: 0
@@ -11051,10 +11052,10 @@ RectTransform:
   - {fileID: 5777914792508575286}
   m_Father: {fileID: 7268369900266036024}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 390, y: -162.23999}
+  m_SizeDelta: {x: 748, y: 292.47998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &1949474355062266365
 Transform:
@@ -12071,21 +12072,21 @@ MonoBehaviour:
   _whenSelect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3330072606292978963}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 3158475084750365146}
+        m_TargetAssemblyTypeName: Oculus.Interaction.AudioTrigger, Oculus.Interaction.Samples
+        m_MethodName: PlayAudio
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 3158475084750365146}
-        m_TargetAssemblyTypeName: Oculus.Interaction.AudioTrigger, Oculus.Interaction.Samples
-        m_MethodName: PlayAudio
+      - m_Target: {fileID: 387964114}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: ToggleContent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13013,10 +13014,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1335977217702196576}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 374, y: -166.35}
+  m_SizeDelta: {x: 716, y: 220.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &5935892080111382611
 RectTransform:
@@ -13051,10 +13052,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1335977217702196576}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 374, y: -28.11}
+  m_SizeDelta: {x: 716, y: 40.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6405933415919389574
 MonoBehaviour:
@@ -13241,7 +13242,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 780, y: 0}
+  m_SizeDelta: {x: 780, y: 324.47998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7320257958813180231
 MonoBehaviour:
@@ -13282,7 +13283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7625840750251887579 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 375273253385529120, guid: 01df7089cee3e7044ae6e6a0185028ab,

@@ -6,6 +6,7 @@ using UnityEngine;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] TMP_Text PlaqueText;
+    [SerializeField] GameObject ContentCanvas;
     void Start()
     {
         HandleGameStateChanged(GameManager.Instance.State);
@@ -14,6 +15,15 @@ public class UIManager : MonoBehaviour
     void OnDestroy()
     {
         GameManager.OnGameStateChanged -= HandleGameStateChanged;
+    }
+
+    public void ToggleContent()
+    {
+        if (ContentCanvas.activeSelf)
+        {
+            ContentCanvas.SetActive(false);
+        }
+        else ContentCanvas.SetActive(true);
     }
 
     private void HandleGameStateChanged(GameState state)
