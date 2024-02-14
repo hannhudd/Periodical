@@ -21,7 +21,7 @@ public class UIManager : MonoBehaviour
         switch (state)
         {
             case GameState.Start:
-                updateName("Hello");
+                updateName("");
                 break;
             case GameState.Cup:
                 updateName("Menstrual Cup");
