@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField] TMP_Text PlaqueText;
     [SerializeField] GameObject ContentCanvas;
+    [SerializeField] TMP_Text ContentHeaderText;
     void Start()
     {
         HandleGameStateChanged(GameManager.Instance.State);
@@ -56,5 +57,6 @@ public class UIManager : MonoBehaviour
     private void updateName(string name)
     {
         PlaqueText.text = name;
+        ContentHeaderText.text = name;
     }
 }
