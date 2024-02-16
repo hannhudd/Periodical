@@ -2048,6 +2048,7 @@ MonoBehaviour:
   PlaqueText: {fileID: 894614590}
   ContentCanvas: {fileID: 7524732261164299828}
   ContentHeaderText: {fileID: 7256987893811283613}
+  ContentBodyText: {fileID: 4926139715686230559}
 --- !u!1 &390640008
 GameObject:
   m_ObjectHideFlags: 0
@@ -4429,7 +4430,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6380,7 +6381,7 @@ Transform:
   m_GameObject: {fileID: 1250625425}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.09551404, z: -0, w: 0.9954281}
-  m_LocalPosition: {x: -0.437, y: 0.795, z: 0.63496727}
+  m_LocalPosition: {x: -0.401, y: 0.795, z: 0.604}
   m_LocalScale: {x: 1.2210001, y: 1.221, z: 1.2210001}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6544,6 +6545,7 @@ Transform:
   - {fileID: 520313375}
   - {fileID: 2136442978}
   - {fileID: 543450651595639890}
+  - {fileID: 543450652717279247}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1293576173
@@ -10881,6 +10883,12 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.7375462, y: 0.01593613, z: 1.0000001}
   m_Center: {x: 0.015255751, y: -0.007968065, z: 0}
+--- !u!4 &543450652717279247 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5613871827246015798, guid: 1297714befb05e5428b64f88018a4376,
+    type: 3}
+  m_PrefabInstance: {fileID: 7154657294175278201}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &651539232107689322
 GameObject:
   m_ObjectHideFlags: 0
@@ -10938,6 +10946,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1885141975}
     m_Modifications:
+    - target: {fileID: 293613012823098115, guid: 022e63f6a5e86324c9df48f83b0fdcd8,
+        type: 3}
+      propertyPath: _audioClips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 293613012823098115, guid: 022e63f6a5e86324c9df48f83b0fdcd8,
+        type: 3}
+      propertyPath: _audioClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 30722848636af2f42983ec50c22b0417, type: 3}
     - target: {fileID: 3221011606826818435, guid: 022e63f6a5e86324c9df48f83b0fdcd8,
         type: 3}
       propertyPath: m_Name
@@ -10993,6 +11011,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9068970520760608821, guid: 022e63f6a5e86324c9df48f83b0fdcd8,
+        type: 3}
+      propertyPath: _audioClips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9068970520760608821, guid: 022e63f6a5e86324c9df48f83b0fdcd8,
+        type: 3}
+      propertyPath: _audioClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 30722848636af2f42983ec50c22b0417, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11055,8 +11083,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 390, y: -162.23999}
-  m_SizeDelta: {x: 748, y: 292.47998}
+  m_AnchoredPosition: {x: 500, y: -123.67}
+  m_SizeDelta: {x: 968, y: 215.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &1949474355062266365
 Transform:
@@ -11178,6 +11206,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 3392624069069607474, guid: 6c9831e9b9241fa4fbd377180de0e994,
+        type: 3}
+      propertyPath: _audioClips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392624069069607474, guid: 6c9831e9b9241fa4fbd377180de0e994,
+        type: 3}
+      propertyPath: _audioClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 30722848636af2f42983ec50c22b0417, type: 3}
+    - target: {fileID: 6136846230442745994, guid: 6c9831e9b9241fa4fbd377180de0e994,
+        type: 3}
+      propertyPath: _audioClips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136846230442745994, guid: 6c9831e9b9241fa4fbd377180de0e994,
+        type: 3}
+      propertyPath: _audioClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 30722848636af2f42983ec50c22b0417, type: 3}
     - target: {fileID: 6523577139575797550, guid: 6c9831e9b9241fa4fbd377180de0e994,
         type: 3}
       propertyPath: m_Name
@@ -12170,6 +12218,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Disc
       objectReference: {fileID: 0}
+    - target: {fileID: 5874576537515544276, guid: 42882ac2472515746ba6ccc999bf7ab4,
+        type: 3}
+      propertyPath: _audioClips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874576537515544276, guid: 42882ac2472515746ba6ccc999bf7ab4,
+        type: 3}
+      propertyPath: _audioClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 30722848636af2f42983ec50c22b0417, type: 3}
+    - target: {fileID: 8215069102648137726, guid: 42882ac2472515746ba6ccc999bf7ab4,
+        type: 3}
+      propertyPath: _audioClips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215069102648137726, guid: 42882ac2472515746ba6ccc999bf7ab4,
+        type: 3}
+      propertyPath: _audioClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 30722848636af2f42983ec50c22b0417, type: 3}
     - target: {fileID: 9211420028101172816, guid: 42882ac2472515746ba6ccc999bf7ab4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12389,6 +12457,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pad
       objectReference: {fileID: 0}
+    - target: {fileID: 2443221899676469577, guid: be4d9f06c9bcb9b4f8cf5a838e97441b,
+        type: 3}
+      propertyPath: _audioClips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443221899676469577, guid: be4d9f06c9bcb9b4f8cf5a838e97441b,
+        type: 3}
+      propertyPath: _audioClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 30722848636af2f42983ec50c22b0417, type: 3}
     - target: {fileID: 5770776412320479401, guid: be4d9f06c9bcb9b4f8cf5a838e97441b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12439,6 +12517,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6236983566963441607, guid: be4d9f06c9bcb9b4f8cf5a838e97441b,
+        type: 3}
+      propertyPath: _audioClips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6236983566963441607, guid: be4d9f06c9bcb9b4f8cf5a838e97441b,
+        type: 3}
+      propertyPath: _audioClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 30722848636af2f42983ec50c22b0417, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12680,25 +12768,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<i><color=red>Note</color>: Improvements from Underlay rendering can only
-    be observed in an on-device build.</i>
+  m_text: '
 
 
-    Interaction SDK is a library of
-    modular, composable components that allows developers to implement a range of
-    robust, standardized interactions (including grab, poke, raycast, and more) for
-    controllers and hands. Interaction SDK also includes tooling to help developers
-    build their own hand poses.
 
 
-    Interaction SDK components can be found under
-    the [SDK] Oculus Interaction directory. You can find Sample scenes under [SDK]
-    Oculus Interaction / Samples.
+    <align=center>Pick up an item to learn more :)
 
 
-    To get started with hands on the Interaction
-    SDK, see how to Set Up Hand Tracking. Make sure that Hand Tracking Support in
-    the OculusProjectConfig is set to Controllers and Hands or Hands Only.
+
 
 '
   m_isRightToLeft: 0
@@ -12727,8 +12805,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13017,8 +13095,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 374, y: -166.35}
-  m_SizeDelta: {x: 716, y: 220.26}
+  m_AnchoredPosition: {x: 484, y: -107.67}
+  m_SizeDelta: {x: 936, y: 183.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &5935892080111382611
 RectTransform:
@@ -13055,8 +13133,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 374, y: -28.11}
-  m_SizeDelta: {x: 716, y: 40.22}
+  m_AnchoredPosition: {x: 484, y: -8}
+  m_SizeDelta: {x: 936, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6405933415919389574
 MonoBehaviour:
@@ -13114,6 +13192,74 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1001 &7154657294175278201
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1291521454}
+    m_Modifications:
+    - target: {fileID: 3970946536413985450, guid: 1297714befb05e5428b64f88018a4376,
+        type: 3}
+      propertyPath: m_Name
+      value: Disclaimer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613871827246015798, guid: 1297714befb05e5428b64f88018a4376,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.6329
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613871827246015798, guid: 1297714befb05e5428b64f88018a4376,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.796
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613871827246015798, guid: 1297714befb05e5428b64f88018a4376,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.7179
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613871827246015798, guid: 1297714befb05e5428b64f88018a4376,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.08715578
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613871827246015798, guid: 1297714befb05e5428b64f88018a4376,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613871827246015798, guid: 1297714befb05e5428b64f88018a4376,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9961947
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613871827246015798, guid: 1297714befb05e5428b64f88018a4376,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613871827246015798, guid: 1297714befb05e5428b64f88018a4376,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613871827246015798, guid: 1297714befb05e5428b64f88018a4376,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -190
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613871827246015798, guid: 1297714befb05e5428b64f88018a4376,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1297714befb05e5428b64f88018a4376, type: 3}
 --- !u!114 &7256987893811283613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13134,7 +13280,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Welcome
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13243,7 +13389,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 780, y: 324.47998}
+  m_SizeDelta: {x: 1000, y: 247.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7320257958813180231
 MonoBehaviour:
@@ -13376,6 +13522,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cup
       objectReference: {fileID: 0}
+    - target: {fileID: 4800285210670987755, guid: 01df7089cee3e7044ae6e6a0185028ab,
+        type: 3}
+      propertyPath: _audioClips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800285210670987755, guid: 01df7089cee3e7044ae6e6a0185028ab,
+        type: 3}
+      propertyPath: _audioClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 30722848636af2f42983ec50c22b0417, type: 3}
+    - target: {fileID: 8934904795422074752, guid: 01df7089cee3e7044ae6e6a0185028ab,
+        type: 3}
+      propertyPath: _audioClips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8934904795422074752, guid: 01df7089cee3e7044ae6e6a0185028ab,
+        type: 3}
+      propertyPath: _audioClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 30722848636af2f42983ec50c22b0417, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
